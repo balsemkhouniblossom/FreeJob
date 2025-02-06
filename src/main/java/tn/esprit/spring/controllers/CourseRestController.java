@@ -26,7 +26,7 @@ public class CourseRestController {
 
     @Operation(description = "Retrieve all Courses")
     @GetMapping("/all")
-    public List<Course> getAllCourses(){
+    public List<Course> fffffff(){
         return courseServices.retrieveAllCourses();
     }
 
