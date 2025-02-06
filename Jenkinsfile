@@ -11,7 +11,7 @@ pipeline {
 
            steps {
 
-               git branch: 'master',
+               git branch: 'projet',
 
                url: 'https://github.com/balsemkhouniblossom/FreeJob.git'
 
