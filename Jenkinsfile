@@ -28,6 +28,11 @@ pipeline {
  }
 
  }
+ stage('MVN SONARQUBE'){
+  steps {
+   sh 'mvn sonar:sonar -Dsonar.login=admin -Dsonar.password=balsemKHOUNI@123 -Dmaven.test.skip=true';
+  }
+ }
 
  }
 
