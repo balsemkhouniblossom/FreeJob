@@ -30,7 +30,7 @@ pipeline {
  }
  stage('MVN SONARQUBE'){
   steps {
-   sh 'mvn sonar:sonar -Dsonar.login=admin -Dsonar.password=balsemKHOUNI@123 -Dmaven.test.skip=true';
+   sh 'mvn sonar:sonar -Dsonar.host.url=http://192.167.33.10:9000 -Dsonar.login=admin -Dsonar.password=balsemKHOUNI@123 -Dmaven.test.skip=true'
   }
  }
 
